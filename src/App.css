@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+
+/* Slidable Tabs Setup Container */
+.tabs-container {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+  overflow-x: auto; /* Enables responsive, touch-friendly horizontal sliding */
+  white-space: nowrap;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+/* Hides native scrollbar track UI for a clean application appearance */
+.tabs-container::-webkit-scrollbar {
+  display: none;
+}
+
+.dishes-list {
+  padding-left: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-size: 20px;
+  font-weight: 500;
+  color: #475569;
+}

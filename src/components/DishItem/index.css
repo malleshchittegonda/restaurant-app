@@ -1,0 +1,100 @@
+.dish-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 24px 40px;
+  border-bottom: 1px solid #cbd5e1;
+  background-color: #ffffff;
+}
+
+.dish-details {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  max-width: 60%;
+}
+
+.dish-name {
+  color: #1e293b;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+
+.dish-currency-price {
+  color: #334155;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 4px;
+  margin-bottom: 8px;
+}
+
+.dish-description {
+  color: #64748b;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.controller-container {
+  background-color: #22c55e;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 20px;
+  color: #ffffff;
+  margin-top: 8px;
+  width: max-content;
+}
+
+.control-btn {
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 6px 16px;
+  cursor: pointer;
+  outline: none;
+}
+
+.quantity {
+  margin: 0;
+  font-weight: 600;
+  font-size: 16px;
+  min-width: 20px;
+  text-align: center;
+}
+
+.not-available-text {
+  color: #ef4444;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+
+.customizations-text {
+  color: #dc2626;
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 12px;
+  margin-bottom: 0;
+}
+
+.dish-calories {
+  color: #eab308;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 4px;
+  margin-right: 24px;
+  white-space: nowrap;
+}
+
+.dish-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 8px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
